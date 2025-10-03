@@ -17,7 +17,6 @@ function formatTime(ms) {
     let minutes =  Math.floor((ms % 3600000) / 60000);
     let seconds = Math.floor((ms % 60000) / 1000);
     let milliseconds = ms % 1000;
-    console.log(seconds)
 
     // Add leading zeros to time (e.g "07" instead of "7")
     hours = String(hours).padStart(2, "0");
